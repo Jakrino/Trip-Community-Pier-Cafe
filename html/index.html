@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trip Crosshair</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="onscreen"><img id="imageURL" src="https://cdn-icons-png.flaticon.com/128/20/20083.png"></div>
+    <div class="background"><img src="https://cdn.discordapp.com/attachments/1145899001531617330/1152395165210791936/bg.png">
+        <div class="rectangle-input">
+            <input type="text" id="textInput" placeholder="  https://example-crosshair/trip-crosshair.png">
+            <button id="applyButton">Apply</button>
+        </div>
+    </div>
+    <div class="container">
+        <div class="box">
+            <img src="https://cdn.discordapp.com/attachments/1145899001531617330/1152588889454825482/crosshair_1.png" alt="Image 1">
+            <div class="buttons">
+                <button id="1" onclick="handleButtonClick(this)">Select</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.discordapp.com/attachments/1145899001531617330/1152592923519631380/crosshair_2.png" alt="Image 2">
+            <div class="buttons">
+                <button id="2" onclick="handleButtonClick(this)">Select</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.discordapp.com/attachments/1145899001531617330/1152595275282644992/crosshair_3.png" alt="Image 3">
+            <div class="buttons">
+                <button id="3" onclick="handleButtonClick(this)">Select</button>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://cdn.discordapp.com/attachments/1145899001531617330/1152600657774264431/crosshair_4.png" alt="Image 4">
+            <div class="buttons">
+                <button id="4" onclick="handleButtonClick(this)">Select</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
