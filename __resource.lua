@@ -1,0 +1,5 @@
+resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
+Author 'TRIP DEVELOPMENTS'
+description 'Trip Pier Cafe V1'
+version '1.0'
+this_is_a_map 'yes'
