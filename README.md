@@ -1,4 +1,4 @@
-# Cosey-Pier-Cafe
+# Trip Community Pier cafe
  A custom map made for Fivem.
 
 ![20230818131546_1](https://github.com/CoseyPerfect/Cosey-Pier-Cafe/assets/128945483/0b1b650c-0c34-4067-a277-6197dbadb895)
